@@ -1,11 +1,11 @@
-markdown
 # Django Project
-Follow the steps below to set up and run the application.
+
+Follow these steps to set up and run the application.
 
 ## Requirements
 
 - Python 3.x
-- Django 3.x or later
+- Django 3.x or higher
 
 ## Setup and Installation
 
@@ -14,44 +14,67 @@ Follow the steps below to set up and run the application.
 First, clone the repository to your local machine:
 
 ```sh
-git clone https
-cd /shopping_system
-2. Create and Activate a Virtual Environment
-It's recommended to use a virtual environment to manage dependencies. Create and activate a virtual environment using the following command:
+git clone https://github.com/your-repository/shopping_system.git
+cd shopping_system
+```
 
-# On Windows
+### 2. Create and Activate a Virtual Environment
+
+It is recommended to use a virtual environment to manage dependencies. Create and activate a virtual environment using the following commands:
+
+#### On Windows
+
+```sh
 python -m venv env
-activate using the command:
 .\env\Scripts\activate
+```
 
-# On macOS/Linux
+#### On macOS/Linux
+
+```sh
 python3 -m venv env
-activate using the command:
 source env/bin/activate
-3. Install Dependencies
-Install the required Python packages using pip:
+```
 
+### 3. Install Dependencies
 
+Install the required Python packages with pip:
+
+```sh
 pip install -r requirements.txt
-4. Apply Migrations
-Set up the database by applying migrations:
+```
 
+### 4. Apply Migrations
+
+Set up the database by running the migrations:
+
+```sh
 python manage.py migrate
-5. Run the Development Server
+```
 
-## Start the Django development server:
+### 5. Run the Development Server
 
+Start the Django development server:
+
+```sh
 python manage.py runserver
+```
 
-##Create a Superuser
-Create a superuser account to access the Django admin interface inorder to add products:
+### 6. Create a Superuser
+
+Create a superuser account to access the Django admin interface and add products:
+
+```sh
 python manage.py createsuperuser
+```
 
-6. Access the Application
-Open your web browser and navigate to http://127.0.0.1:8000/ to view and interact with the application.
+### 7. Access the Application
 
-File Structure
-manage.py: Django's command-line utility for administrative tasks.
-project/: The project directory containing settings and configuration.
-app/: The main application directory containing views, models, templates, etc.
-templates/: Directory for HTML templates.
+Open your web browser and go to [http://127.0.0.1:8000/](http://127.0.0.1:8000/) to view the application.
+
+## File Structure
+
+- `manage.py`: Django's command-line utility for administrative tasks.
+- `simpleshopping/`: Contains project settings and configuration.
+- `app/`: Contains the main application, including views, models, templates, etc.
+- `templates/`: Directory for HTML templates.
