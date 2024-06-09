@@ -14,8 +14,8 @@ Follow these steps to set up and run the application.
 First, clone the repository to your local machine:
 
 ```sh
-git clone https://github.com/your-repository/shopping_system.git
-cd shopping_system
+git clone https://github.com/Clifford537/shoppingsystem.git
+cd shoppingsystem
 ```
 
 ### 2. Create and Activate a Virtual Environment
